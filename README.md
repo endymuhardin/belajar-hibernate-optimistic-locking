@@ -12,7 +12,13 @@
 2. Masuk ke folder project
 3. Di command prompt pertama, update nama user menjadi Lukman. Tentukan delay 10 detik agar bisa didahului oleh command prompt kedua
 
+    mvn exec:java -Dexec.mainClass=com.muhardin.endy.belajar.hibernate.App \
+    -Dexec.args="10 Lukman"
+
 4. Di command prompt kedua, update nama user menjadi Faris. Tentukan delay 2 detik agar bisa mendahului command prompt pertama
+
+    mvn exec:java -Dexec.mainClass=com.muhardin.endy.belajar.hibernate.App \
+    -Dexec.args="2 Faris"
 
 5. Seharusnya command prompt kedua akan sukses, dan command prompt pertama akan gagal karena telah didahului user lain.
 
