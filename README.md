@@ -1,4 +1,4 @@
-# Contoh implementasi Optimistic Locking dengan Hibernate #
+# Optimistic Locking dengan Hibernate #
 
 ### Referensi ###
 
